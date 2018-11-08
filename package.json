@@ -12,7 +12,7 @@
   "devDependencies": {
     "busboy": "^0.2.14",
     "chai": "^4.1.0",
-    "koa": "^2.2.0",
+    "koa": "^2.6.1",
     "koa-bodyparser": "^3.2.0",
     "koa-convert": "^1.2.0",
     "koa-router": "^7.2.1",

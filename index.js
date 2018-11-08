@@ -1,6 +1,8 @@
 const Koa = require('koa')
 const app = new Koa()
 
+
+
 const server = async (ctx, next) => {
   let result = {
     success: true,
@@ -34,6 +36,7 @@ const server = async (ctx, next) => {
 app.use(server)
 
 module.exports = app
+var port_number = server.listen(process.env.PORT || 3000);
 
-app.listen(3000)
-console.log('[demo] test-unit is starting at port 3000')
+app.listen(port_number)
+console.log('[demo]')

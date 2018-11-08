@@ -4,7 +4,7 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "devtool index.js --watch",
+    "start": "node --inspect index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
@@ -26,5 +26,8 @@
     "koa-static": "^4.0.1",
     "koa-views": "^6.0.2",
     "mysql": "^2.13.0"
+  },
+  "engines": {
+    "node": "8.x"
   }
 }

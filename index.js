@@ -36,7 +36,6 @@ const server = async (ctx, next) => {
 app.use(server)
 
 module.exports = app
-var port_number = server.listen(process.env.PORT || 3000);
 
-app.listen(port_number)
+app.listen(process.env.PORT ||3000)
 console.log('[demo]')

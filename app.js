@@ -2,6 +2,7 @@ const Koa = require('koa')
 const app = new Koa()
 var cors = require('koa2-cors');
 
+console.log('test')
 
 const getTableDate = () => {
   let arr = []
